@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(img/bg-pattern-top.svg0), url(img/bg-pattern-bottom.svg), linear-gradient(#19A2AE, #19A2AE);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+/* Typography */
+h1 {
+    font-size: 1.15rem;
+    margin-bottom: .425rem;
+}
+
+span {
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+}
+
+p {
+    color: rgb(94, 94, 94);
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 0.65rem;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+}
+
+
+.container {
+    width: 100%;
+    max-width: 300px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.top {
+    
+}
+
+.bottom {
+    padding: 60px 25px 20px 25px;
+}
+
+.bottom.top {
+    padding-bottom: 30px;
+}
+
+.bottom-btm {
+    border-top: solid 1px #d3dbdb;
+    padding: 40px 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
