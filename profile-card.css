@@ -7,6 +7,10 @@ body {
     background: url(img/bg-pattern-top.svg0), url(img/bg-pattern-bottom.svg), linear-gradient(#19A2AE, #19A2AE);
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    
 }
 
 
@@ -36,6 +40,11 @@ h4 {
 }
 
 
+/* Image Section */
+
+
+/* End of image section */
+
 .container {
     width: 100%;
     max-width: 300px;
@@ -43,21 +52,40 @@ h4 {
     border-radius: 15px;
 }
 
+/* Container top */
+
 .top {
-    
+    position: relative;
 }
+
+
+.top-avatar {
+    border-radius: 50%;
+    border: 6px solid #fff;
+    position: absolute;
+    top: 55%;
+    left: 33%;
+}
+
+.img-bg {
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+/* Container bottom */
 
 .bottom {
     padding: 60px 25px 20px 25px;
 }
 
-.bottom.top {
+.bottom-top {
     padding-bottom: 30px;
 }
 
 .bottom-btm {
     border-top: solid 1px #d3dbdb;
-    padding: 40px 10px 0 10px;
+    padding: 30px 10px 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
