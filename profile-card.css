@@ -18,11 +18,13 @@ body {
 h1 {
     font-size: 1.15rem;
     margin-bottom: .425rem;
+    transition: ease-in-out 0.5s;
 }
 
 span {
     font-weight: 400;
     color: rgb(94, 94, 94);
+    
 }
 
 p {
